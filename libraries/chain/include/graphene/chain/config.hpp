@@ -23,8 +23,8 @@
  */
 #pragma once
 
-#define GRAPHENE_SYMBOL "BDS"
-#define GRAPHENE_ADDRESS_PREFIX "BDS"
+#define GRAPHENE_SYMBOL "GOOD"
+#define GRAPHENE_ADDRESS_PREFIX "GDC"
 
 #define GRAPHENE_MIN_ACCOUNT_NAME_LENGTH 1
 #define GRAPHENE_MAX_ACCOUNT_NAME_LENGTH 63
@@ -144,7 +144,7 @@
 #define GRAPHENE_RECENTLY_MISSED_COUNT_INCREMENT             4
 #define GRAPHENE_RECENTLY_MISSED_COUNT_DECREMENT             3
 
-#define GRAPHENE_CURRENT_DB_VERSION                          "BDS2.9"
+#define GRAPHENE_CURRENT_DB_VERSION                          "GOOD2.9"
 
 #define GRAPHENE_IRREVERSIBLE_THRESHOLD                      (70 * GRAPHENE_1_PERCENT)
 
@@ -168,4 +168,4 @@
 #define GRAPHENE_NULL_WITNESS (graphene::chain::witness_id_type(0))
 ///@}
 
-#define GRAPHENE_FBA_STEALTH_DESIGNATED_ASSET (asset_id_type(743))
+
